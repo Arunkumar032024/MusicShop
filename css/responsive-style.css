@@ -1,0 +1,302 @@
+@media (max-width: 1330px) {
+    .section-3 .blog-content .blog{
+        max-width: 100%;
+    }
+}
+@media (max-width: 1192px) {
+    /* navbar section design  */
+    nav .right{
+        width: 250px;
+    }
+
+    /* top-feature section  */
+    .top-feature-section .left{
+        width: 500px;
+    }
+    .top-feature-section .right{
+        width: calc(100% - 500px);
+    }
+    
+}
+@media (max-width: 1080px) {
+}
+@media (max-width: 992px) {
+    /* navbar section design  */
+    nav .right{
+        width: 100px;
+    }
+    nav .right .fa-bell,
+    nav .right p{
+        display: none;   
+    }
+    nav .right .fa-ellipsis-vertical{
+        display: inline;
+    }
+    /* play-song-section design  */
+    .play-song-section .right p{
+        display: none;
+    }
+    .play-song-section .middle .fa-shuffle,
+    .play-song-section .middle .fa-repeat{
+        display: none;
+    }
+
+    /* home banner section design  */
+    .home-section .right{
+        display: none;
+    }
+    .home-section .content{
+        top: 60%;
+        left: 40%;
+        transform: translateY(-65%);
+    }
+    @keyframes floatUp {
+        0%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-65%);
+        }
+    }
+    .home-section .content p:nth-child(1){
+        font-size: 4rem;
+    }
+
+    /* top feature section  */
+    .top-feature-section{
+        flex-direction: column;
+    }
+    .top-feature-section .left,
+    .top-feature-section .right{
+        width: 100%;
+    }
+
+    /* bg section 1 design  */
+    .bg-section-1{
+        flex-direction: column;
+    }
+    .bg-section-1 .left,
+    .bg-section-1 .right{
+        width: 100%;
+    }
+    .bg-section-1 .left img{
+        width: 100%;
+    }
+
+    
+    /* bg-section-2 */
+    .bg-section-2{
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+    .bg-section-2 .left,
+    .bg-section-2 .right{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    
+}
+@media (max-width: 767px) {
+    /* navbar section design  */
+    nav .middle .left-div{
+        display: none;
+    }
+    nav .middle .right-div{
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    /* play-song-section design  */
+    .play-song-section .left p{
+        display: none;
+    }
+    /* play-song-section design  */
+    .play-song-section .middle{
+        margin: auto 3%;
+        /* max-width: 200px; */
+    }
+
+    /* home banner section design  */
+    .home-section .content{
+        left: 50%;
+        transform: translateY(-65%);
+    }
+    .home-section .content p:nth-child(1){
+        font-size: 3rem;
+    }
+
+    /* section -1 design  */
+    .section-1{
+        padding: 5rem 3rem;
+    }
+
+    .head-div ul{
+        flex-wrap: wrap;
+    }
+
+    /* bg-section-2  */
+    .bg-section-2 .right img{
+        width: 100%;
+    }
+
+}
+@media (max-width: 592px) {
+    /* navbar section design  */
+    nav{
+        flex-direction: column;
+    }
+    nav .left{
+        width: calc(100% - 100px);
+        border-right: none;
+    }    
+    nav .middle .right-div{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    nav .right{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    /* play-song-section design  */
+    .play-song-section .middle{
+        margin: auto 0;
+        max-width: 200px;
+    }
+
+    /* home  banner section design  */
+    .home-section .left{
+        display: none;
+    }
+    .home-section .content{
+        top: 50%;
+        left: 10%;
+        transform: translateY(-65%);
+    }
+    .home-section .content p:nth-child(1){
+        font-size: 3.5rem;
+    }
+    /* section -1 design  */
+    .section-1{
+        padding: 5rem 2rem;
+    }
+    
+    /* bg section 1 design  */
+    .bg-section-1{
+        padding: 5rem 0;
+    }
+
+    /* section 3  */
+    .section-3 {
+        padding: 0.125rem;
+    }
+    .section-3 .cart-div{
+        padding: 2rem 0;
+    }
+
+    .section-3 .blog-content .blog img{
+        width: 100%;
+    }
+
+    .section-3 .music-div img{ 
+        width: 15%;
+    }
+    .section-3 .add{
+        margin: 0;
+        margin-top: 2rem;
+    }
+    /* footer 1 design */
+    .footer-1{
+        padding: 5rem 0;
+    }
+
+    /* footer 2 design */
+    .footer-2{
+        padding: 5rem 0;
+    }
+
+}
+@media (max-width: 480px) {
+    /* navbar section design  */       
+    nav .middle .right-div select option{
+        font-size: 0.813rem;
+    }
+
+    /* play-song-section design  */
+    .play-song-section .right .fa-volume-high,
+    .play-song-section .right .slider{
+        display: none;
+    }
+    
+    /* play-song-section design  */
+    .play-song-section .middle{
+        margin: auto;
+        max-width: 0;
+    }
+    
+    /* home  banner section design  */
+    .home-section .content{
+        top: 55%;
+    }
+    .home-section .content p:nth-child(1){
+        font-size: 3rem;
+    }
+    /* top feature section  */
+    .top-feature-section .left .content p:nth-child(3),
+    .top-feature-section .left .content p:nth-child(4){
+        display: none;
+    }
+    .top-feature-section .right .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .top-feature-section .right .content p:nth-child(1){
+        font-size: 1.5rem;
+    }
+
+    .bg-section-1 .left #plus-1{
+        top: 20%;
+        left: 30%;
+        transform: translate(-20%, -30%);
+    }
+    .bg-section-1 .left #plus-2{
+        top: 50%;
+        right: 15%;
+        transform: translate(-50%, -15%);
+    }
+    .bg-section-1 .left #plus-3{
+        bottom: 20%;
+        left: 30%;
+        transform: translate(-20%, -30%);
+    }
+    .section-3 .blog-content .blog{
+        flex-direction: column;
+    }
+}
+@media (max-width: 333px) {
+    /* navbar section design  */       
+    nav .middle .right-div select option{
+        font-size: 0.625rem
+    }
+
+    /* play-song-section design  */
+    .play-song-section .middle{
+        min-width: 50px;
+    }
+    .play-song-section .middle .fa-forward,
+    .play-song-section .middle .fa-backward{
+        display: none;
+    }
+    /* home  banner section design  */
+    .home-section .content p:nth-child(1){
+        font-size: 2.5rem;
+    }    
+    .release-album .album{
+        width: 100%;
+    }
+
+    
+    
+}
